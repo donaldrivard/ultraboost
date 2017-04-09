@@ -1,0 +1,7 @@
+<apex:page>
+<apex:includeLightning/>
+<!-- Begin Default Content REMOVE THIS -->
+This is for the UltraBoost project
+
+
+</apex:page>
