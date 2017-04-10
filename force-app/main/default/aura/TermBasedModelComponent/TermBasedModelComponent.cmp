@@ -38,4 +38,11 @@
   </div>
 </div>
 
+<div class="slds-form-element">
+  <div class="slds-form-element__control">
+    <lightning:input type="date" label="Start Date" name="date" />
+  </div>
+</div>
+
+
 </aura:component>	

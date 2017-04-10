@@ -198,14 +198,14 @@
     [
         "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/UltraBoostComponent/UltraBoostComponentController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/UltraBoostComponent/UltraBoostComponentController.js",
             "isDirectory": false,
+            "size": 697,
+            "modifiedTime": 1491846451000,
+            "changeTime": 1491846451000,
+            "contentHash": "61881aa80e3a0a2b88d819911188464e9e432750",
             "isMetadataFile": false,
-            "size": 953,
-            "modifiedTime": 1491777690000,
-            "changeTime": 1491777690000,
-            "contentHash": "a72d44e02214a578365452da0c68e722da618df4"
+            "state": "u"
         }
     ],
     [
@@ -330,10 +330,10 @@
         {
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/PlatformFee/PlatformFee.cmp",
             "isDirectory": false,
-            "size": 1183,
-            "modifiedTime": 1491762100000,
-            "changeTime": 1491762100000,
-            "contentHash": "4abce12f1ada0399c39280bbe9b5b38c3f995b9f",
+            "size": 1185,
+            "modifiedTime": 1491777738000,
+            "changeTime": 1491777738000,
+            "contentHash": "6cc4e77c0ceb5fb8b5c848c7d76a957ae076bfb9",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -653,14 +653,14 @@
     [
         "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/ShareBasedModelComponent/ShareBasedModelComponent.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/ShareBasedModelComponent/ShareBasedModelComponent.cmp",
             "isDirectory": false,
-            "size": 564,
-            "modifiedTime": 1491763183000,
-            "changeTime": 1491763183000,
-            "contentHash": "f07d26e873f94208fe15fb99d10d8a27e68d8c52",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 834,
+            "modifiedTime": 1491847561000,
+            "changeTime": 1491847561000,
+            "contentHash": "15067ba5be977de8ab27bf144b4c09e4807746bf"
         }
     ],
     [
@@ -692,14 +692,14 @@
     [
         "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/ShareBasedModelComponent/ShareBasedModelComponentController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/ShareBasedModelComponent/ShareBasedModelComponentController.js",
             "isDirectory": false,
-            "size": 61,
-            "modifiedTime": 1491763134000,
-            "changeTime": 1491763134000,
-            "contentHash": "b1b80c03517595de32055092a501e68c53cfb549",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 122,
+            "modifiedTime": 1491847577000,
+            "changeTime": 1491847577000,
+            "contentHash": "b4135dc422c7375c3d3129a85dfed7bd1dab1a91"
         }
     ],
     [
