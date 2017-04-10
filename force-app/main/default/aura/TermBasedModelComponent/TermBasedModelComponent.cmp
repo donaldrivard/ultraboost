@@ -1,0 +1,41 @@
+<aura:component>
+
+
+
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="text-input-Year1">Year 1</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-01" class="slds-input" placeholder="GMV Fee Commit" />
+  </div>
+</div>
+
+
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="text-input-Year1">Year 2</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-01" class="slds-input" placeholder=" GMV Fee Commit" />
+  </div>
+</div>
+
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="text-input-Year1">Year 3</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-01" class="slds-input" placeholder=" GMV Fee Commit" />
+  </div>
+</div>
+
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="text-input-Year1">Year 4</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-01" class="slds-input" placeholder=" GMV Fee Commit" />
+  </div>
+</div>
+ 
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="text-input-Year1">Year 5</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-01" class="slds-input" placeholder=" GMV Fee Commit" />
+  </div>
+</div>
+
+</aura:component>	

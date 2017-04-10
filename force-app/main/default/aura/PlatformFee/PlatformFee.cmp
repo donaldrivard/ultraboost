@@ -1,0 +1,38 @@
+<aura:component>
+
+<div>
+<fieldset class="slds-form-element">
+  <legend class="slds-form-element__legend slds-form-element__label">Platform Fee</legend>
+  <div class="slds-form-element__control">
+    <span class="slds-radio">
+      <input type="radio" id="radio-25" name="fee" checked="" />
+      <label class="slds-radio__label" for="radio-25">
+        <span class="slds-radio--faux"></span>
+        <span class="slds-form-element__label">Digital Small Business Edition - $10,000</span>
+      </label>
+    </span>
+    <span class="slds-radio">
+      <input type="radio" id="radio-26" name="fee" />
+      <label class="slds-radio__label" for="radio-26">
+        <span class="slds-radio--faux"></span>
+         <span class="slds-form-element__label">Digital Corporate Edition - $20,000</span>
+      </label>
+    </span>
+    
+    <span class="slds-radio">
+      <input type="radio" id="radio-27" name="fee" />
+      <label class="slds-radio__label" for="radio-27">
+        <span class="slds-radio--faux"></span>
+         <span class="slds-form-element__label">Digital Enterprise Edition - $40,000</span>
+      </label>
+    </span>
+  </div>
+</fieldset>    
+</div>
+
+
+
+
+
+
+</aura:component>	

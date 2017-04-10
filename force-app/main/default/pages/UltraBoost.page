@@ -1,7 +1,23 @@
-<apex:page>
+<apex:page showHeader="true">
 <apex:includeLightning/>
-<!-- Begin Default Content REMOVE THIS -->
-This is for the UltraBoost project
+<div id="lightning" />
+
+<script>
+        $Lightning.use("c:ubApp", function() {
+          $Lightning.createComponent("c:UltraBoostComponent",
+        		  {},
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+
+        
+    </script>
+
+
+
+
 
 
 </apex:page>

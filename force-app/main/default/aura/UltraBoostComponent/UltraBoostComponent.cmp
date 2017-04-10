@@ -1,0 +1,75 @@
+<aura:component>
+
+ <aura:handler event="c:PlatformModelEvent" action="{!c.handlePlatformEvent}"/>
+					  
+
+
+<div class="slds-progress">
+  <ol class="slds-progress__list">
+    <li class="slds-progress__item slds-is-active">
+      <button class="slds-button slds-button--icon slds-progress__marker slds-progress__marker--icon" aria-describedby="step-1-tooltip">
+      <lightning:icon iconName="action:info" size="xx-small" alternativeText="Indicates approval"/>
+      
+        <span class="slds-assistive-text">Step 1 - Active</span>
+      </button>
+    </li>
+    <li class="slds-progress__item">
+      <button class="slds-button slds-button--icon slds-progress__marker slds-progress__marker--icon" aria-describedby="step-2-tooltip">
+      	<lightning:icon iconName="action:new_note" size="xx-small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Step 2 </span>
+      </button>
+    </li>
+    <li class="slds-progress__item">
+      <button class="slds-button slds-button--icon slds-progress__marker slds-progress__marker--icon" aria-describedby="step-3-tooltip">
+      <lightning:icon iconName="action:new_note" size="xx-small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Step 3 </span>
+      </button>
+    </li>
+    <li class="slds-progress__item">
+      <button class="slds-button slds-button--icon slds-progress__marker slds-progress__marker--icon" aria-describedby="step-4-tooltip">
+       <lightning:icon iconName="action:new_note" size="xx-small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Step 4 </span>
+      </button>
+    </li>
+    <li class="slds-progress__item">
+      <button class="slds-button slds-button--icon slds-progress__marker slds-progress__marker--icon" aria-describedby="step-5-tooltip">
+       <lightning:icon iconName="action:new_note" size="xx-small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Step 5 </span>
+      </button>
+    </li>
+  </ol>
+  <div class="slds-progress-bar">
+    <span class="slds-progress-bar__value" style="width:0%;">
+      <span class="slds-assistive-text">Progress: 0%</span>
+    </span>
+  </div>
+</div>
+<br>
+</br>
+
+	<div class="slds-form--stacked" >
+     	
+            <div class="slds-show">
+          		<div class="slds-input">
+      			<c:PlatformFee />
+      			<c:PlatformModelComponent />
+       		</div>
+            </div>
+	<br>
+	</br>
+			 <div id="term" aura:id="term" class="slds-hide">
+          		<div class="slds-input">
+      			<c:TermBasedModelComponent />
+    		</div>
+            </div>
+  
+ 			<div  id="share" aura:id="share" class="slds-hide">
+          		<div class="slds-input">
+      			<c:ShareBasedModelComponent />
+    		</div>
+            </div>
+  
+  
+    <button class="slds-button slds-button--brand">Submit</button>
+  </div>  
+</aura:component>	

@@ -1,0 +1,29 @@
+<aura:component>
+
+<aura:registerEvent name="platformEvent" type="c:PlatformModelEvent"/>
+												 
+
+<div>
+<fieldset class="slds-form-element-model">
+  <legend class="slds-form-element__legend slds-form-element__label">Platform Model</legend>
+  <div class="slds-form-element__control">
+    <span class="slds-radio">
+      <input type="radio" value="term" data-value="term" id="baseModel" name="models" onclick="{!c.handleModel}"/>
+      <label class="slds-radio__label" for="baseModel">
+        <span class="slds-radio--faux"></span>
+        <span class="slds-form-element__label">Term Based Model</span>
+      </label>
+    </span>
+    <span class="slds-radio">
+      <input type="radio" value="shared" data-value="shared" id="shareModel" name="models" onclick="{!c.handleModel}" />
+      <label class="slds-radio__label" for="shareModel">
+        <span class="slds-radio--faux"></span>
+         <span class="slds-form-element__label">Shared Based Model</span>
+      </label>
+    </span>
+    
+  </div>
+</fieldset>    
+</div>
+    
+</aura:component>	
