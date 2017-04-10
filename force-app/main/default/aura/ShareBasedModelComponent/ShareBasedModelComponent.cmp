@@ -9,11 +9,25 @@
 
 
 <div class="slds-form-element">
-  <label class="slds-form-element__label" for="text-input-Year1">Rate</label>
   <div class="slds-form-element__control">
-    <input type="text" id="text-input-01" class="slds-input" placeholder=" Rate" />
+    <lightning:input type="date" label="Start Date" name="date" />
   </div>
 </div>
+
+
+<div class="slds-form-element">
+  <div class="slds-form-element__control">
+   <lightning:select name="Years" label="How Many Years" onchange="{!c.yearsChange}">
+        <option value="">choose one...</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </lightning:select>
+  </div>
+</div>
+
+
+
 
     
 </aura:component>	

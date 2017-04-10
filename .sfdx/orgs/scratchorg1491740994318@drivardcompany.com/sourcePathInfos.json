@@ -328,14 +328,14 @@
     [
         "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/PlatformFee/PlatformFee.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/PlatformFee/PlatformFee.cmp",
             "isDirectory": false,
-            "size": 1185,
-            "modifiedTime": 1491777738000,
-            "changeTime": 1491777738000,
-            "contentHash": "6cc4e77c0ceb5fb8b5c848c7d76a957ae076bfb9",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1614,
+            "modifiedTime": 1491849756000,
+            "changeTime": 1491849756000,
+            "contentHash": "7581a35bd0896af2ad4bc3d4a8142805e9d320ff"
         }
     ],
     [
@@ -369,10 +369,10 @@
         {
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/PlatformFee/PlatformFeeController.js",
             "isDirectory": false,
-            "size": 125,
-            "modifiedTime": 1491754064000,
-            "changeTime": 1491754064000,
-            "contentHash": "d0d25a02f6d417bb5019757e9e7fcf43df1d591f",
+            "size": 207,
+            "modifiedTime": 1491849712000,
+            "changeTime": 1491849712000,
+            "contentHash": "8e4a9082aaad738440da0d8af6001577e487a117",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -562,14 +562,14 @@
     [
         "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/TermBasedModelComponent/TermBasedModelComponent.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/drivard/sfdx-pilot/UltraBoost/force-app/main/default/aura/TermBasedModelComponent/TermBasedModelComponent.cmp",
             "isDirectory": false,
+            "size": 1531,
+            "modifiedTime": 1491847862000,
+            "changeTime": 1491847862000,
+            "contentHash": "5028a547cd6b1c4c4fd078913fe708b7707aec68",
             "isMetadataFile": false,
-            "size": 1530,
-            "modifiedTime": 1491847675000,
-            "changeTime": 1491847675000,
-            "contentHash": "62489a31bb449bc663daf3cf6cdc6f5778bafa1e"
+            "state": "u"
         }
     ],
     [
